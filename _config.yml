@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Layercake
 markdown: redcarpet
 pygments: true
+baseurl: /layercake
