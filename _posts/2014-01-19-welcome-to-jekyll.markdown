@@ -7,7 +7,6 @@ categories: jekyll update
 
 Hello world.
 
-Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
 def print_hi(name)

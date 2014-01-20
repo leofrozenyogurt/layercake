@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "a good solution for mobile devices"
+date:   2014-01-19 19:53:02
+categories: jekyll update
+---
+
+Do you ever need certain items to be just on your apps mobile side. If so here is a great rails solution
+which is light and simple.
+<br>
+<br>
+Inside <code>app/controllers/application_controller.rb</code> do
+
+{% highlight ruby %}
+private
+def mobile_device?
+	request.user_agent =~ /Mobile|webOS/
+end
+
+helper_method :mobile_device?
+{% endhighlight %}
+
+<br>
+
+then inside your view 
+{% highlight ruby %}
+if mobile_device?
+	# do what you want here
+end
+{% endhighlight %}
+
+<br> 
+
+And thats it. A super light and simple approach that lets your site be more mobile.
