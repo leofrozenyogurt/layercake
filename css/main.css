@@ -71,14 +71,16 @@ a:visited { color: #a0a; }
 .title {
   display: inline-block;
   margin-bottom: 2em;
+  font-size: 3rem;
+  line-height: 1.1667;
 }
 
 .title a {
-  color: #a00;
+  color: rgb(233, 67, 67);;
 }
 
 .title a:hover {
-  color: #000;
+  color: white;
 }
 
 .header a.extra {
