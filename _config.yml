@@ -1,4 +1,4 @@
 name: Layercake
 markdown: redcarpet
 pygments: true
-baseurl: layercake
+baseurl: /layercake
