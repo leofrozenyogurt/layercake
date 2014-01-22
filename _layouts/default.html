@@ -8,6 +8,9 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.css">
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+        <script src='{{ site.baseurl }}/js/bootstrap.js'></script>
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
@@ -19,25 +22,20 @@
           <div class="header">
             <h1 class="title"><a href="{{ site.baseurl}}">{{ site.name }}</a></h1>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+          <div id="content">
+            {{ content }}
           </div>
         </div>
-
+            <center>
+              <br><br>
+            <div id="social" class="miniWidth">
+              <ul>
+                <li class="facebook" data-text="Like me on Facebook" data-network="facebook"><a href="#">Facebook</a></li>
+                <li class="twitter" data-text="Tweet me on Twitter" data-network="twitter"><a href="#">Twitter</a></li>
+                <li class="youtube" data-text="Plus me on Google" data-network="google"><a href="#">Github</a></li>
+              </ul>
+              <p>Find me on the web</p>
+            </div>
+            </center>
     </body>
 </html>
