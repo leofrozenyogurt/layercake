@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "a good solution for mobile devices"
-date:   2014-01-19 19:53:02
+date:   2014-01-20 19:53:02
 categories: jekyll update
 ---
 
