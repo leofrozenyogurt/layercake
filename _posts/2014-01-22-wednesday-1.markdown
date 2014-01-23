@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Weightlifting Wednesdays Episode 1"
+date:   2014-01-22 19:53:02
+categories: weightlifting clean russia
+---
+
+Russia is back to training for the 2014 World Championships. Excited to see what new videos are to come. 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/XKabVBwGrqI" frameborder="0" allowfullscreen></iframe>

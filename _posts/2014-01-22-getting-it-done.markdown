@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "getting it done is better than doing it right"
-date:   2014-01-22 19:53:02
+date:   2014-01-21 19:53:02
 categories: jekyll update
 ---
 
